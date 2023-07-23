@@ -13,7 +13,7 @@ class TestIfElseTest {
     }
     @Test
     void testIfElse_inputBmv_No() {
-        String input = "Auto";
+        String input = "Bmv";
         String expected = "No";
         Assertions.assertEquals(expected, testIfElse.testIfElse(input));
     }
